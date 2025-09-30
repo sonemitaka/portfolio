@@ -50,7 +50,7 @@ h1 {
 	padding: 0 90px;
 }
 
-.JavaFhoto,.OracleFhoto,.HTMLFhoto,.CreateFhoto{
+.div4{
 	width: 50%;
 	margin: 0 auto;
 }
@@ -116,4 +116,10 @@ footer {
 }
 .Java,.SQL,.HTML{
 	background-color: #fff;
+}
+
+@media screen and (min-width: 767px){
+	.div5,.div3{
+		display: flex;
+	}
 }
