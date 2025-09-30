@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	background-color: #9EF084;
+	margin: 0;
+	padding: 10px;
+}
+
+.nav{
+	border-bottom: 1px solid grey;
+	padding: 5px 0;
+}
+
+.navli {
+	/*	border-right: solid 1px #ffffff;*/
+	list-style-type: none;
+	width: 33%;
+	font-size: 20px;
+	padding: 0px;
+	text-align: center;
+}
+
+.ul{
+	padding: 0%;
+}
+
+.profilep{
+	width: 50%;
+	margin: 0 auto;
+}
+.profile{
+	width: 100%;
+	border-radius: 20px;
+}
+
+.div2{
+	padding: 0 90px;
+}
+
+.JavaFhoto,.OracleFhoto,.HTMLFhoto,.CreateFhoto{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.Java,.SQL,.HTML,.Create{
+	width: 50%;
+}
+
+.AboutMeul {
+	list-style-type: none;
+}
+
+#AboutMe,
+#Skills,
+#Contact {
+	font-size: 30px;
+}
+
+.name {
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.skillsnavul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.skillsnavli {
+	list-style-type: none;
+	width: 30%;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 15px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.Skillsul {
+	list-style-type: none;
+}
+
+form{
+	width: 500px;
+	margin: auto;
+}
+.btn{
+	text-align: center;
+}
+
+footer {
+	border-top: solid 1px #000;
+	text-align: center;
+	padding: 0px;
+}
+
+.footer {
+	margin: 0px;
+	font-size: small;
+}
+.Java,.SQL,.HTML{
+	background-color: #fff;
+}
