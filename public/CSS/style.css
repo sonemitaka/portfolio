@@ -51,13 +51,21 @@ h1 {
 	padding: 0 90px;
 }
 
+.div3,.div5{
+	padding: 0 90px;
+}
+
 .div4{
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 .Java,.SQL,.HTML,.Create{
 	width: 50%;
+}
+
+.CreateFhoto{
+	margin:  30px auto 0 auto;
 }
 
 .AboutMeul {
@@ -123,5 +131,8 @@ footer {
 @media screen and (min-width: 767px){
 	.div5,.div3{
 		display: flex;
+	}
+	.div3{
+		margin: 0 auto;
 	}
 }
