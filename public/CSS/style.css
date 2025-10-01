@@ -9,17 +9,22 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
+	background-color: #fff;
 }
 
 h1 {
 	text-align: center;
 	font-size: 40px;
-	background-color: #9EF084;
+	color: #fff;
+	background-color:#000;
 	margin: 0;
 	padding: 10px;
+	font-family: "Dela Gothic One", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
-.nav{
+.nav {
 	border-bottom: 1px solid grey;
 	padding: 5px 0;
 }
@@ -33,39 +38,44 @@ h1 {
 	text-align: center;
 }
 
-.ul{
+.ul {
 	padding: 0%;
 }
 
-.profilep{
+.profilep {
 	width: 30%;
 	margin: 0 auto;
 }
-.profile{
+
+.profile {
 	width: 100%;
 	border-radius: 20px;
-	
+
 }
 
-.div2{
+.div2 {
 	padding: 0 90px;
 }
 
-.div3,.div5{
+.div3,
+.div5 {
 	padding: 0 90px;
 }
 
-.div4{
+.div4 {
 	width: 100%;
 	margin: 0 auto;
 }
 
-.Java,.SQL,.HTML,.Create{
+.Java,
+.SQL,
+.HTML,
+.Create {
 	width: 50%;
 }
 
-.CreateFhoto{
-	margin:  30px auto 0 auto;
+.CreateFhoto {
+	margin: 30px auto 0 auto;
 }
 
 .AboutMeul {
@@ -105,11 +115,12 @@ h1 {
 	list-style-type: none;
 }
 
-form{
+form {
 	width: 500px;
 	margin: auto;
 }
-.btn{
+
+.btn {
 	text-align: center;
 }
 
@@ -117,22 +128,23 @@ footer {
 	border-top: solid 1px #000;
 	text-align: center;
 	padding: 0px;
-	background-color: #9EF084;
+	background-color:#000;
+	color: #fff;
 }
 
 .footer {
 	margin: 0px;
 	font-size: small;
 }
-.Java,.SQL,.HTML{
-	background-color: #fff;
-}
 
-@media screen and (min-width: 767px){
-	.div5,.div3{
+@media screen and (min-width: 767px) {
+
+	.div5,
+	.div3 {
 		display: flex;
 	}
-	.div3{
+
+	.div3 {
 		margin: 0 auto;
 	}
 }
